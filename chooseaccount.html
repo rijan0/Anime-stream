@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ANIME STREAM/CHOOSE</title>  
+    <link rel="icon" href="download.png">
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background: url(back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card{
+    width: 350px;
+    height: 75vh;
+    padding: 20px;
+    backdrop-filter: blur(20px);
+    border: 2px solid #fff;
+    border-radius: 20px;
+    display: grid;
+    align-content:center;
+}
+.proImg{
+    width: 200px;
+    margin: auto;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    margin: 30px auto 40px auto;
+}
+.name{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+
+}
+.card p{
+    color: #fff;
+    text-align: center;
+    margin: 20px 0;
+}
+.card button{
+    width: 80%;
+    padding: 8px 0;
+    margin: auto;
+    background-color: #3a3636;
+    color: #fff;
+    border-radius: 7px;
+    border: 2px solid #fff;
+    cursor: pointer;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    transition: 0.3s;
+}
+.card button:hover{
+    background: #000;
+}
+.com{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    justify-content: left;
+    align-content: center;
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+.cam{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    justify-content: right;
+    align-content: center;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+a{
+    color: white;
+}
+    </style>
+</head>
+<body>
+   <div class="cam">
+    <div data-tilt data-tilt-glare data-tilt-max-glare="0.3" class="card">
+        <img src="PRO.png" class="proImg">
+        <h2 class="name">PRO VERSION</h2>
+        <p>UNLOCK ALL NEW FEATURES AND ,WATCH ALL NEW EPISODS OF ANIME IN TIME, 4K QUALITY </p>
+        <button> <a href="pament.html">GO PRO </a>></button>
+    </div>
+    </div>
+    <div class="com">
+          <div data-tilt data-tilt-glare data-tilt-max-glare="0.3" class="card">
+        <img src="FREE.png" class="proImg">
+        <h2 class="name">FREE VERSION</h2>
+        <p>CONTAINS SOME FEATURES LIMITATION,WATCH ANIME AFTER SOME TIME DELAY,1080P<br> QUALITY  </p>
+        <button><a href="signup.html">GO FREE</a>></button>
+    </div>  
+</div>
+</body>
+</html>
